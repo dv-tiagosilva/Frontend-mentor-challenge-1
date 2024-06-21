@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Young-serif";
+    src: url("recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Outfit-variable";
+    src: url("recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit-variable", serif;
+    text-align: justify;
+} 
+
+:root {
+    --cor01: #F3E5D8;
+    --cor02: #f2e4d866;
+    --cor03: #81483cf5;
+    --cor04: #795C54;
+
+}
+
+body {
+    background-color: var(--cor01);
+    
+}
+
+main{
+    background-color: white;
+    display: block;
+    margin: 100px auto 50px auto;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 550px;
+}
+
+main img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    
+}
+
+h1, h2 {
+    font-family: "Young-serif", serif;
+}
+
+.intro h1 {
+    font-size: 2em;
+    font-weight: 300;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.intro p {
+    font-weight: 400;
+    font-size: small;
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+
+.preparation {
+    display: block;
+    padding: 30px;
+    margin-bottom: 10px;
+    background-color: var(--cor02);
+    border-radius: 10px;
+}
+.preparation h2 {
+    font: normal bold 1em "Outfit-variable", serif;
+    color: var(--cor03);
+    padding-bottom: 15px;
+}
+
+.preparation li {
+    list-style-position: inside;
+}
+
+.preparation p {
+    display: inline;
+    text-indent: 20px;
+    font-size: 13px;
+
+}
+
+.ingredients {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.104);
+
+}
+
+.ingredients h2 {
+    color: var(--cor04);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.ingredients li {
+    list-style-position: inside;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.instructions {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.104);
+}
+
+.instructions h2 {
+    color: var(--cor04);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.instructions ol {
+    list-style-position: outside;
+    margin-left: 13px;
+    font-size: 13px;
+    line-height: 25px;
+    color: var(--cor03);
+}
+
+.instructions li p {
+    margin-inline-start: 10px;
+    color: black;
+
+}
+
+.nutrition {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.104);
+}
+
+.nutrition h2 {
+    color: var(--cor04);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.nutrition p {
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+
+.table {
+    width: 100%;
+    margin: 10px auto;
+
+}
+
+.table td {
+    border-bottom: 1px solid grey;
+    font-size: 13px;
+    padding: 10px;
+}
+
+#column-2 {
+    color: var(--cor03);
+    font-weight: bold;
+}
+
+footer {
+    max-width: 550px;
+    text-align: center;
+    margin: auto;
+}
+footer p {
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+
+
